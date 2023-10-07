@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #78CCCB;
+}
+
+.container {
+    height: 1100px;
+    width: 1400px;
+    background: #FF5E5B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+.sketch-title {
+    margin-bottom: 30px;
+    color: yellow;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.sketch-container {
+    width: 90%;
+    height: 80%;
+    background: rgb(117, 116, 116);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.sketch-line {
+    flex: 1;
+    display: flex;
+    
+}
+
+.sketch-pixel {
+    background: #D8D8D8;
+    flex: 1;
+    border: 1px solid grey;
+    
+    
+}
