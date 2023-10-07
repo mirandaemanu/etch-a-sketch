@@ -28,7 +28,7 @@ window.addEventListener('mouseup', () => {
     if(isClicked) { isClicked = false; }
 })
 
-createSketchGrid(82);
+createSketchGrid(42);
 
 const gridPixels = document.querySelectorAll('.sketch-pixel');
 

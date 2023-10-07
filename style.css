@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -10,35 +10,38 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #78CCCB;
+    background: #6a4c93;
 }
 
 .container {
-    height: 1100px;
-    width: 1400px;
-    background: #FF5E5B;
+    aspect-ratio: 1/1;
+    height: 100%;
+    margin: 10px;
+    background: #1982c4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    border: 5px solid #8ac926;
     
 }
 
 .sketch-title {
-    margin-bottom: 30px;
-    color: yellow;
+    margin-bottom: 10px;
+    color: #f9c74f;
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
 }
 
 .sketch-container {
-    width: 90%;
-    height: 80%;
+    aspect-ratio: 1/1;
+    height: 90%;
     background: rgb(117, 116, 116);
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    
     
 }
 
@@ -51,7 +54,13 @@ body {
 .sketch-pixel {
     background: #D8D8D8;
     flex: 1;
-    border: 1px solid grey;
+    border: 0.01px solid rgb(188, 184, 184);
+}
+
+@media(max-width: 690px) {
+    .container {
+        width: 98%;
+        height: auto;
     
-    
+    }
 }
