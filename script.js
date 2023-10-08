@@ -83,7 +83,7 @@ document.querySelectorAll('.size-btn').forEach((btn) => {
     btn.addEventListener('click', () => changeSelectedButton(btn, ".size-btn"));
 })
 
-createSketchGrid(42);
+createSketchGrid(46);
 gridPixelsDraw(() => "#707070")
 
 document.querySelector('.grid-btn-small').addEventListener('click', () => { createSketchGrid(26); })

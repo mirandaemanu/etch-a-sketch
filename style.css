@@ -82,6 +82,11 @@ body {
     margin: 2px;
 }
 
+.grid-btn-medium, .normal-btn {
+    background: #f9c74f;
+    color: #1982c4;
+}
+
 .sketch-header {
     display: flex;
     width: 80%;
