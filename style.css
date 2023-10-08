@@ -93,3 +93,8 @@ body {
     margin-left: auto;
     align-self: center;
 }
+
+.clear-btn:hover {
+    background: #f9c74f;
+    color: #1982c4;
+}
